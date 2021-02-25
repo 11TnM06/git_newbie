@@ -87,7 +87,8 @@ void minusDate(int& dayNew, int& monthNew, int& yearNew, int& dayBonus) {
             yearNew --;
             dayOfYear = checkLeapYear(yearNew - 1) ? 366: 365;
         }
-        amountOfDay = dayOfYear - amountOfDay;
+        //amountOfDay = dayOfYear - amountOfDay;
+        //cout << amountOfDay << ".\n";
         convert_Day_to_Date(dayNew, monthNew, yearNew, amountOfDay);
     }
 }
@@ -111,7 +112,7 @@ void solve(int& dayInput, int& monthInput, int& yearInput, int& dayBonus, char& 
 }
 
 int main () {
-    //freopen("4A.inp","r",stdin);
+    freopen("4A.inp","r",stdin);
     int dayInput, monthInput, yearInput, dayBonus = 0;
     char c;
 
