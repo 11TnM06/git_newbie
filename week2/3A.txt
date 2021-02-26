@@ -1,0 +1,1 @@
+Vẫn sử dụng được tât cả các vòng lặp như ở bài 1.
