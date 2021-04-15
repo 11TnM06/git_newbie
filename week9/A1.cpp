@@ -5,8 +5,9 @@ using namespace std;
 
 char* concat(const char* a, const char* b) {
     int n = strlen(a) + strlen(b);
-
+    char ch = '\0';
     char* c = new char[n];
+    *c = ch;
 
     strcat(c, a);
     strcat(c, b);
